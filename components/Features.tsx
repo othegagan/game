@@ -8,7 +8,7 @@ const features = [
         title: 'Augmented Reality Exploration',
         image: '',
         description:
-            'MetaQuest uses AR technology to blend the physical and digital worlds, allowing players to explore real environments while discovering ancient mythological locations, rare treasures, and powerful creatures. It creates a unique adventure where reality meets myth.'
+            'MetaQuests uses AR technology to blend the physical and digital worlds, allowing players to explore real environments while discovering ancient mythological locations, rare treasures, and powerful creatures. It creates a unique adventure where reality meets myth.'
     },
     {
         title: 'Blockchain-Powered Ownership',

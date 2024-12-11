@@ -16,9 +16,9 @@ export default function About() {
                         <div className='mt-10 flex flex-col items-center justify-center gap-10'>
                             <SectionHeader title={title} subTitle={subTitle} className='mt-10' />
                             <p className='mx-auto max-w-5xl px-6 text-center text-muted-foreground text-white leading-7 sm:text-xl'>
-                                MetaQuest is a cutting-edge gaming platform built on the belief that gaming can go beyond the screen and bridge the gap between
+                                MetaQuests is a cutting-edge gaming platform built on the belief that gaming can go beyond the screen and bridge the gap between
                                 the digital and physical worlds. Our mission is to revolutionize mobile gaming through the power of augmented reality (AR),
-                                immersive mythological storytelling, and blockchain technology. With MetaQuest, players experience a world where ancient myths
+                                immersive mythological storytelling, and blockchain technology. With MetaQuests, players experience a world where ancient myths
                                 come to life, and digital assets can be truly owned, traded, and valued.
                             </p>
                         </div>

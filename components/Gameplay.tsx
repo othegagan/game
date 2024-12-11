@@ -7,7 +7,7 @@ const gameplay = [
     {
         title: 'Mobile Gameplay',
         description:
-            'MetaQuest is exclusively designed for mobile devices, harnessing augmented reality to seamlessly blend digital content to the real-world environment while exploring an expansive mythological universe.',
+            'MetaQuests is exclusively designed for mobile devices, harnessing augmented reality to seamlessly blend digital content to the real-world environment while exploring an expansive mythological universe.',
         image: '/images/mobile-gameplay.png'
     },
     {

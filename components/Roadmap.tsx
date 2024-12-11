@@ -13,18 +13,18 @@ const roadmapData = [
     },
     {
         id: 3,
-        title: 'Q3 2024: Mythology Expansion',
+        title: 'Q3 2025: Mythology Expansion',
         description: 'New mythological locations, characters, and digital assets are added to the game, providing fresh quests and challenges for players.'
     },
     {
         id: 4,
-        title: 'Q4 2024: Global Challenges & Events',
+        title: 'Q4 2025: Global Challenges & Events',
         description:
             'Large-scale global challenges, seasonal events, and community-driven tournaments are launched, offering rare rewards and player engagement incentives.'
     },
     {
         id: 5,
-        title: 'Beyond 2024',
+        title: 'Beyond 2025',
         description:
             'Continuous development with the introduction of new mythologies, enhanced AR features, and expanded blockchain integration for deeper immersion.'
     }
@@ -34,7 +34,7 @@ export default function Roadmap() {
     return (
         <section id='roadmap' className='z-20 py-20'>
             <main className='container mx-auto flex flex-col gap-4 px-4'>
-                <SectionHeader title='Roadmap' subTitle='Charting the Future: The MetaQuest Journey' className='mt-10' />
+                <SectionHeader title='Roadmap' subTitle='Charting the Future: The MetaQuests Journey' className='mt-10' />
                 <div className='mx-auto mt-10 flex max-w-5xl flex-col gap-16 md:flex-row'>
                     <div className='before:-translate-x-px relative space-y-8 before:absolute before:inset-0 before:ml-5 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent md:before:mx-auto md:before:translate-x-0'>
                         {roadmapData.map((item, index) => (

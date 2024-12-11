@@ -15,9 +15,12 @@ export default function Hero() {
                     <p className='mb-8 max-w-3xl text-xl'>
                         Experience the future of mobile gaming where AR-driven exploration meets the revolutionary ownership of digital assets on the blockchain
                     </p>
-                    <Link className='rounded-full bg-yellow-500 px-8 py-3 font-bold text-black text-lg transition-colors hover:bg-yellow-600' href='#'>
-                        Join the Quest
+                    <Link
+                        className='text-nowrap rounded-full bg-yellow-500 px-8 py-3 font-bold text-black text-lg uppercase transition-colors hover:bg-yellow-600'
+                        href='#contact'>
+                        Join the waiting list
                     </Link>
+                    <p className='text-white text-xs'>Enjoy the early bird benefits by joining the waiting list</p>
                 </main>
             </div>
         </section>

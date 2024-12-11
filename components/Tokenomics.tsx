@@ -1,7 +1,7 @@
 import SectionHeader from './section-header';
 
 const title = 'Tokenomics';
-const subTitle = 'MetaQuest Token (MQT): Your Key to Ownership and Growth.';
+const subTitle = 'MetaQuests Token (MQT): Your Key to Ownership and Growth.';
 
 const points = [
     'In-Game Transactions: Purchase items like weapons, artifacts, and customization features using MQT.',

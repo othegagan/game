@@ -1,25 +1,22 @@
 import type { Metadata } from 'next';
-import { Space_Grotesk } from 'next/font/google';
 import './globals.css';
 
-const space_grotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space', display: 'swap' });
-
 export const metadata: Metadata = {
-    title: 'Metaquest',
+    title: 'Metaquests',
     description:
-        'MetaQuest is a cutting-edge gaming platform built on the belief that gaming can go beyond the screen and bridge the gap between the digital and physical worlds. Our mission is to revolutionize mobile gaming through the power of augmented reality (AR), immersive mythological storytelling, and blockchain technology. With MetaQuest, players experience a world where ancient myths come to life, and digital assets can be truly owned, traded, and valued.',
+        'MetaQuests is a cutting-edge gaming platform built on the belief that gaming can go beyond the screen and bridge the gap between the digital and physical worlds. Our mission is to revolutionize mobile gaming through the power of augmented reality (AR), immersive mythological storytelling, and blockchain technology. With MetaQuests, players experience a world where ancient myths come to life, and digital assets can be truly owned, traded, and valued.',
     openGraph: {
         type: 'website',
-        url: 'https://metaquest.com',
-        title: 'Metaquest',
+        url: 'https://www.metaquests.com',
+        title: 'Metaquests',
         description:
-            'MetaQuest is a cutting-edge gaming platform built on the belief that gaming can go beyond the screen and bridge the gap between the digital and physical worlds. Our mission is to revolutionize mobile gaming through the power of augmented reality (AR), immersive mythological storytelling, and blockchain technology. With MetaQuest, players experience a world where ancient myths come to life, and digital assets can be truly owned, traded, and valued.',
+            'MetaQuests is a cutting-edge gaming platform built on the belief that gaming can go beyond the screen and bridge the gap between the digital and physical worlds. Our mission is to revolutionize mobile gaming through the power of augmented reality (AR), immersive mythological storytelling, and blockchain technology. With MetaQuests, players experience a world where ancient myths come to life, and digital assets can be truly owned, traded, and valued.',
         images: [
             {
-                url: 'https://metaquest.com/metaquest-og-image.png',
+                url: 'https://www.metaquests.com/image.png',
                 width: 1200,
                 height: 630,
-                alt: 'Metaquest'
+                alt: 'Metaquests'
             }
         ]
     }
@@ -32,7 +29,28 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en' className='scroll-smooth'>
-            <body className={`${space_grotesk.className} bg-primary antialiased`}>{children}</body>
+            <head>
+                <meta
+                    name='description'
+                    content='MetaQuests is a cutting-edge gaming platform built on the belief that gaming can go beyond the screen and bridge the gap between the digital and physical worlds. Our mission is to revolutionize mobile gaming through the power of augmented reality (AR), immersive mythological storytelling, and blockchain technology. With MetaQuests, players experience a world where ancient myths come to life, and digital assets can be truly owned, traded, and valued.'
+                />
+                <meta name='title' content='MetaQuests' />
+                <meta name='keywords' content='gaming, blockchain, ar, nft, metaverse' />
+                <meta name='author' content='Gagan Kumar' />
+                <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+
+                <meta property='og:title' content='MetaQuests' />
+                <meta
+                    property='og:description'
+                    content='MetaQuests is a cutting-edge gaming platform built on the belief that gaming can go beyond the screen and bridge the gap between the digital and physical worlds. Our mission is to revolutionize mobile gaming through the power of augmented reality (AR), immersive mythological storytelling, and blockchain technology. With MetaQuests, players experience a world where ancient myths come to life, and digital assets can be truly owned, traded, and valued.'
+                />
+                <meta property='og:image' content='https://www.metaquests.com/image.png' />
+                <link rel='apple-touch-icon' sizes='180x180' href='/images/apple-touch-icon.png' />
+                <link rel='icon' type='image/png' sizes='32x32' href='/images/favicon-32x32.png' />
+                <link rel='icon' type='image/png' sizes='16x16' href='/images/favicon-16x16.png' />
+                <link rel='manifest' href='/images/site.webmanifest' />
+            </head>
+            <body className='bg-primary font-space antialiased'>{children}</body>
         </html>
     );
 }
