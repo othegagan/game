@@ -1,7 +1,7 @@
-import SectionHeader from "./section-header";
+import Link from 'next/link';
+import SectionHeader from './section-header';
 const title = 'Partners we work with';
 const subTitle = 'Collaborations That Drive Success';
-
 
 export default function Partners() {
     return (
@@ -14,10 +14,12 @@ export default function Partners() {
                 <main className='container mx-auto flex flex-col gap-4 px-4 text-center'>
                     <SectionHeader title={title} subTitle={subTitle} />
                     <div className='mx-auto mt-10 max-w-xl'>
-                        <img src='./images/partners.png' alt='placeholder' className='mx-auto  object-cover' />
+                        <Link href='https://www.diamante.io/'>
+                            <img src='./images/partners.png' alt='placeholder' className='mx-auto object-cover' />
+                        </Link>
                     </div>
                 </main>
             </div>
         </section>
     );
-};
+}
