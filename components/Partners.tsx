@@ -14,7 +14,7 @@ export default function Partners() {
                 <main className='container mx-auto flex flex-col gap-4 px-4 text-center'>
                     <SectionHeader title={title} subTitle={subTitle} />
                     <div className='mx-auto mt-10 max-w-xl'>
-                        <Link href='https://www.diamante.io/'>
+                        <Link href='https://www.diamante.io/' target='_blank' rel='noreferrer'>
                             <img src='./images/partners.png' alt='placeholder' className='mx-auto object-cover' />
                         </Link>
                     </div>
